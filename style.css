@@ -128,7 +128,7 @@ font-family: 'Montserrat', sans-serif; */
 .details .add-to-cart-btn:hover{
     background-color: var(--neutral1);
 } 
-/* Media Queries Styling (Mobile screen : max width of 768px and min width of 768px) 
+/* Media Queries Styling (Mobile screen : max width of 375px) 
 (Desktop screen: between max width of 1440px and min width of 769px) */
 @media screen and (max-width:1440px) and (min-width: 769px) {
     .product-box-grid {
