@@ -128,9 +128,9 @@ font-family: 'Montserrat', sans-serif; */
 .details .add-to-cart-btn:hover{
     background-color: var(--neutral1);
 } 
-/* Media Queries Styling (Mobile screen : max width of 375px) 
-(Desktop screen: between max width of 1440px and min width of 376px) */
-@media screen and (max-width:1440px) and (min-width: 376px) {
+/* Media Queries Styling (Mobile screen : max width of 768px and min width of 768px) 
+(Desktop screen: between max width of 1440px and min width of 769px) */
+@media screen and (max-width:1440px) and (min-width: 769px) {
     .product-box-grid {
         grid-template-columns: repeat(2, 50%);
     }
@@ -140,7 +140,7 @@ font-family: 'Montserrat', sans-serif; */
     }
 }
 
-@media screen and (max-width:375px) {
+@media screen and (max-width:768px) and (min-width:375px) {
     .product-box-grid {
         height: 670px;
         grid-template-rows: 35% 65%;
