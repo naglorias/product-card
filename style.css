@@ -28,7 +28,6 @@ font-family: 'Montserrat', sans-serif; */
     max-width: 860px;
     height: 580px;
     display: grid;
-    grid-template-columns: repeat(2, 50%);
     border-radius: 10px;
     margin: 10vh auto;
     overflow: hidden;
